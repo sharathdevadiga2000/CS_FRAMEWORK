@@ -21,12 +21,7 @@ public class rgstpg {
 	@FindBy(id="LastName")
 	WebElement lastname;
 	
-	@FindBy(id="Email")
-	WebElement email;
-	
-	@FindBy(xpath="//h1[text()='Register']")
-	WebElement logo;
-	
+
 	public void enterfirstname(String fN)
 	{
 		firstname.sendKeys(fN);
